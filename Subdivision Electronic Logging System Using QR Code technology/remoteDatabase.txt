@@ -1,0 +1,11 @@
+server:	db4free.net
+Database: databasethesis1
+Username: databasethesis1
+Password: databasethesis1
+Email: jmsbrno06@gmail.com
+port: 3306
+
+mysql -u databasethesis1 -pdatabasethesis1 --host=db4free.net --port=3306
+
+jdbc driver:
+Connection con = DriverManager.getConnection("jdbc:mysql://db4free.net:3306/databasethesis1?useTimezone=true&serverTimezone=UTC", "databasethesis1", "databasethesis1");
